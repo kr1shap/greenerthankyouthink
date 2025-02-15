@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
         <!-- js script -->
+        <script defer src = 'script.js'></script>
+
     </head>
     <body class = 'Gardenbkgnd'>
         <div class='gar-format'>
@@ -16,17 +18,17 @@
             <p id ='mood-txt' class="mood-txt">Your mood: [insert mood]</h1>
         </div>
         <div class="plant-btn">
-            <button class="plants" id="p1" type="submit" onclick="openPlant(); changeTxt(event)"></button>
-            <button class="plants" id="p2" type="submit" onclick="openPlant(); changeTxt(event)"></button>
-            <button class="plants" id="p3" type="submit" onclick="openPlant(); changeTxt(event)"></button>
-            <button class="plants" id="p4" type="submit" onclick="openPlant(); changeTxt(event)"></button>
-            <button class="plants" id="p5" type="submit" onclick="openPlant(); changeTxt(event)"></button>
+            <button class="plants" id="p1" type="submit" onclick="changeTxt(event);openPlant()"></button>
+            <button class="plants" id="p2" type="submit" onclick="changeTxt(event);openPlant()"></button>
+            <button class="plants" id="p3" type="submit" onclick="changeTxt(event);openPlant()"></button>
+            <button class="plants" id="p4" type="submit" onclick="changeTxt(event);openPlant()"></button>
+            <button class="plants" id="p5" type="submit" onclick="changeTxt(event);openPlant()"></button>
         </div>
         <div class="plant-fact" id ='plantpopup'>
             <!-- idk -->
             <h2 class="plant-tit" id="plant-tit"></h2>
             <h2 class="pFact" id ='pFact'></h2>
-            <button class="close" type="button" onClick="closePopup();">⟡ ݁₊ close</button>
+            <button class="close" type="button" onClick="closePopup()">⟡ ݁₊ close</button>
         </div>
         <script>
             let popup = document.getElementById('plantpopup');

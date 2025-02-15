@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="Images\gtyk_icon.png" type="image/x-icon" />
         <title>Resources [🌿 Greener than you think]</title>
         <link rel = "stylesheet" href = "style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,6 +50,19 @@
             .box a:hover {
                 text-decoration: underline;
             }
+            .back-btn { 
+                /*FONT DETAILS*/
+                font-size: 15px; 
+                font-family: "Press Start 2P", serif;
+                font-weight: 500;
+                font-style: normal;
+                /*BTN DETAILS*/
+                justify-content: center; 
+                padding: 15px 30px; 
+                border-radius: 30px; 
+                margin: 10px 10px;
+                transition: 0.5s; 
+            }
         </style>
     </head>
     <body>
@@ -60,6 +74,18 @@
                 🛜 <a href="https://www.headspace.com" target="_blank">Visit Headspace</a>: Offers articles and blogs about mental health, including meditation techniques and sleep<br>
                 🛜 <a href="https://www.helpguide.org" target="_blank">Visit HelpGuide.org</a>: Offers free, evidence-based resources to help understand and navigate mental health challenges
             </p>
+            <button class="back-btn" type="button" id='back-btn'onclick="goHome()">go home ( • ᴗ - ) ✧</button>
+            <script>
+                function goHome()
+                    {
+                        document.body.classList.add("fade-out"); // Add fade-out effect
+                        setTimeout(() => {
+                            window.location.href = "Gindex.html"; // Redirect after transition
+                        }, 800); // Adjust timing to match CSS transition
+                    }
+            </script>
+            
+
         </div>
     </body>
 </html>

@@ -1,18 +1,5 @@
-function setMd(event) { 
-    let moods = { 
-        m1: "Your mood: ( ˶ˆ꒳ˆ˵ )",
-        m2: "Your mood: (ᵕ—_—)",
-        m3: "Your mood: (っ◞‸◟ c)",
-        m4: "Your mood: ( ｡ •̀ ᴖ •́ ｡)💢"
-    }
-
-    let clickedButton = event.target.id; // Get the ID of the clicked button
-    let mood = moods[clickedButton]; 
-    document.getElementById("mood-txt").innerText = mood; // Update text
-}
-
-
 function changeTxt(event) {
+    let clickedButton = event.target.id; // Get the ID of the clicked button
     let plantNames = {
         p1: "Happi happi plant(*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ",
         p2: "Depres Plant (っ◞‸◟ c)",
@@ -28,8 +15,6 @@ function changeTxt(event) {
         p4: "Feelings are just visitors. Let them come and go",
         p5: "Turn your anger around, did you know anger can be a source of motivation?"
     };
-
-    let clickedButton = event.target.id; // Get the ID of the clicked button
     let message = messages[clickedButton] || "You planted a mystery plant! 🪴"; // Default message
     let plantName = plantNames[clickedButton] || "You planted a mystery plant! 🪴"; // Default message
 
