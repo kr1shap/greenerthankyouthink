@@ -1,0 +1,412 @@
+
+/*GINDEX.HTML*/
+img { 
+    display: none;
+    width: 200px; /* Adjust size */
+    transition: opacity 0.3s ease-in-out; /* Smooth effect */
+}
+
+.Gindexbkgnd { 
+    background-image: url(https://i.pinimg.com/originals/c5/c6/5b/c5c65bdf726853eb5c4e5384418bab5a.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.main-title { 
+    /*FONT*/
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px; 
+    color: white;
+    text-shadow: 3px 1px 8px rgb(169, 169, 169);
+    /*DISPLAY*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px; 
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+/*MOOD.HTML*/
+.moodbkgnd { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://i.pinimg.com/originals/63/77/8e/63778e081016c055aa5ae9720e08fe7f.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.container-md { 
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width:90vh;
+    height:25vh;
+    margin-top: 250px;
+    padding: 20px 20px; 
+    /*COLOUR*/
+    border: 2px solid rgba(255, 255, 255, 0.562);
+    background-color:rgba(115, 157, 149, 0.892);
+    border-radius: 25px;
+    transition: 0.5s; 
+}
+
+.container-md:hover { 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.feeling-tit { 
+    /*FONT*/
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    color: white;
+    text-shadow: 3px 1px 8px rgb(169, 169, 169);
+    /*DISPLAY*/
+    text-align:center;
+
+}
+
+
+/*THOUGHT.HTML*/
+.thoughtbkgnd { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://i.pinimg.com/originals/68/9e/13/689e13b5a9e29749f6ae2cce530f7f3e.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+
+.container-tht { 
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width:80vh;
+    height:25vh;
+    margin-top: 250px;
+    padding: 20px 20px; 
+}
+
+.tht-buble { 
+    font-family: "Press Start 2P", serif;
+    font-weight: 100;
+    font-style: normal;
+    position: absolute;
+    background: white; 
+    text-align: center; 
+
+    width:700px;
+    border-radius: 30px; 
+    margin: 10px 10px;
+    top: 50%;
+    left: 50%; 
+    padding: 30px 30px; 
+    
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s; 
+    visibility: hidden;
+
+    /*DISPLAY*/
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.open-popup { 
+    visibility:visible; 
+    transform: translate(-50%, -50%) scale(1);
+}
+
+textarea {
+    width: 80%;             /* Makes it responsive */
+    height: 150px;           /* Good default height */
+    padding: 12px;           /* Adds spacing inside */
+    font-size: 16px;         /* Easy-to-read text */
+    font-family: "Poppins";
+    border: 2px solid #ccc;  /* Subtle border */
+    border-radius: 8px;      /* Smooth edges */
+    outline: none;           /* Removes default focus outline */
+    resize: vertical;        /* Allows resizing only up/down */
+    background-color: #f9f9f9; /* Soft background */
+    transition: border-color 0.3s ease-in-out; /* Smooth interaction */
+}
+
+/* Focus effect */
+textarea:focus {
+    border-color: #4a90e2; /* Highlights when selected */
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+
+/*GARDEN HTML */
+.Gardenbkgnd { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction:column;
+    background-image: url(https://i.pinimg.com/originals/c5/c6/5b/c5c65bdf726853eb5c4e5384418bab5a.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.gar-format { 
+    width:70%;
+    display:flex;
+    align-items: right; 
+    justify-content: flex-end;
+    text-align:right;
+    flex-direction:column;
+}
+
+.mood-txt { 
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+    color: white;
+    text-shadow: 3px 1px 8px rgb(169, 169, 169);
+}
+.gar-tit { 
+     /*FONT*/
+     margin-top:150px;
+     margin-left:200px;
+     font-family: "Press Start 2P", serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 40px; 
+     color: white;
+     text-shadow: 3px 1px 8px rgb(169, 169, 169);
+     /*DISPLAY*/
+}
+
+.plant-fact { 
+    font-family: "Press Start 2P", serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #ffffff00; 
+    background-image: url('Images/cardInfo.png');
+    background-size:cover;
+    background-position:center; 
+
+    position:absolute;
+    width:700px;
+    height:40%;
+    border-radius: 30px; 
+    margin: 10px 10px;
+    top: 50%;
+    left: 50%; 
+    padding: 30px 30px; 
+    
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s; 
+    visibility: hidden;
+
+    /*DISPLAY*/
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.plant-fact { 
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+
+.plant-tit { 
+    position:absolute;
+    top:5%;
+    left:30%;
+    text-align:left;
+    font-size:15px;
+    color:rgb(5, 73, 50);
+}
+
+.pFact { 
+    position:relative;
+    width:70%;
+    height:50%;
+    text-align:left;
+    font-size:15px;
+    color:rgba(7, 42, 31, 0.864);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.open-plantpopup { 
+    visibility:visible; 
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/*BUTTON*/
+
+.controls { 
+    display: flex; 
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.moods { 
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.plant-btn { 
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start; 
+    gap:30px;
+    margin-top:280px;
+    margin-right:250px;
+}
+
+button { 
+    /*FONT DETAILS*/
+    font-size: 15px; 
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    /*BTN DETAILS*/
+    justify-content: center; 
+    padding: 15px 30px; 
+    border-radius: 30px; 
+    margin: 10px 10px;
+    transition: 0.5s; 
+
+}
+
+.plants { 
+    height:100px;
+    background:transparent;
+    border:none;
+}
+
+
+.play-btn, .health-btn, .btn-tht, .close { 
+    font-family: "Press Start 2P", serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(202, 251, 190);
+    color:rgb(22, 66, 11);
+}
+
+.btn-tht { 
+    background-color: rgb(190, 242, 251);
+    color:rgb(11, 52, 66);
+}
+
+.btn-tht:hover { 
+    background-color: rgb(140, 228, 246);
+    color:rgb(10, 140, 183);
+}
+
+button, .play-btn, .health-btn, .close:hover { 
+    color:rgb(38, 105, 22);
+    background-color:rgba(169, 249, 149, 0.962)
+}
+
+
+.btn-happy { 
+    background-color: #ffffff00; 
+    background-image: url('Images/happy.png');
+    background-size:cover;
+    background-position:center; 
+    border:none;
+    cursor:pointer;
+    width: 100px; 
+    height: 100px; 
+    transition: 0.5s; 
+}
+.btn-angry { 
+    background-color: #ffffff00; 
+    background-image: url('Images/angry.png');
+    background-size:cover;
+    background-position:center; 
+    border:none;
+    cursor:pointer;
+    width: 100px; 
+    height: 100px;
+    transition: 0.5s;  
+}
+
+.btn-sad { 
+    background-color: #ffffff00; 
+    background-image: url('Images/depressed.png');
+    background-size:cover;
+    background-position:center; 
+    border:none;
+    cursor:pointer;
+    width: 100px; 
+    height: 100px; 
+    transition: 0.5s; 
+}
+
+.btn-neutral { 
+    background-color: #ffffff00; 
+    background-image: url('Images/neutral.png');
+    background-size:cover;
+    background-position:center; 
+    border:none;
+    cursor:pointer;
+    width: 100px; 
+    height: 100px; 
+    transition: box-shadow 0.5s; 
+}
+
+.btn-happy, .btn-sad, .btn-neutral, .btn-angry { 
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+
+/*FONTS */
+.press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-light {
+font-family: "Poppins", serif;
+font-weight: 300;
+font-style: normal;
+}
+  
+.poppins-regular {
+font-family: "Poppins", serif;
+font-weight: 400;
+font-style: normal;
+}
+  
+.poppins-bold {
+font-family: "Poppins", serif;
+font-weight: 700;
+font-style: normal;
+}

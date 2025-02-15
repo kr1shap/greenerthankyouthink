@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <link rel="icon" href="Images\gtyk_icon.png" type="image/x-icon" />
+        <meta name = "viewport" content ="width=device-width, inital-scale=1.0">
+        <title>Greener than you think</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <!-- js script -->
+        <script defer src = 'script.js'></script>
+    </head>
+    <body class = 'moodbkgnd'>
+        <div class="container-md">
+            <h1 class="feeling-tit">How do you feel today?</h1>
+            <div class = 'moods'> 
+                <button id = 'm1' class="btn-happy" onclick="goThought(); setMd(event)"></button>
+                <button id = 'm2' class="btn-neutral" onclick="goThought(); setMd(event)"></button>
+                <button id = 'm3' class="btn-sad" onclick="goThought(); setMd(event)"></button>
+                <button id = 'm4' class="btn-angry" onclick="goThought(); setMd(event)"></button>
+                
+            </div>
+            <script>
+                function goThought()
+                {
+                    document.body.classList.add("fade-out"); // Add fade-out effect
+                    setTimeout(() => {
+                        window.location.href = "thought.html"; // Redirect after transition
+                    }, 800); // Adjust timing to match CSS transition
+                }
+            </script>
+
+        </div>
+
+    </body>
+</html>
