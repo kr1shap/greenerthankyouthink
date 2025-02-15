@@ -19,7 +19,7 @@ Welcome to **Greener than you think**! This project is a simple static website b
 Many struggle to express their emotions due to the fear of judgment, making it difficult to seek support. 
 Our mission is to create a safe space where adolescents can unwind, share their feelings, and find relief from negative emotions.
 This is why we created **Greener than you think**, a friendly, cute web application as a comfort zone for adolescents. Want to have your own mini garden? Let your thoughts go?
-Then, **Greener than you think** is your to go! _Remember, the grass is always greener on the other side. _ (˶˃ ᵕ ˂˶) .ᐟ.ᐟ 
+Then, **Greener than you think** is your to go! __Remember, the grass is always greener on the other side. __ (˶˃ ᵕ ˂˶) .ᐟ.ᐟ 
 
 This was a project made for ElleHacks 25. 
 
