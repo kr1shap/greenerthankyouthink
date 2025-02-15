@@ -15,7 +15,7 @@ Welcome to **Greener than you think**! This project is a simple static website b
 
 ## **Overview**  
 
-**getting started!** is a group of [adolescents] who understand the challenges of navigating mental health while facing life’s changes. 
+**getting started!** is a group of __adolescents__ who understand the challenges of navigating mental health while facing life’s changes. 
 Many struggle to express their emotions due to the fear of judgment, making it difficult to seek support. 
 Our mission is to create a safe space where adolescents can unwind, share their feelings, and find relief from negative emotions.
 This is why we created **Greener than you think**, a friendly, cute web application as a comfort zone for adolescents. Want to have your own mini garden? Let your thoughts go?
