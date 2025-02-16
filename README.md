@@ -26,9 +26,10 @@ This was a project made for ElleHacks 25.
 ---
 
 ## **Features**  
-- **Interactive elements**: Utilization of JS for interactive elements
-- **CSS Styling**: Uses CSS to create an aesthetic-like style suitable for adolescents! Uses pixel styling for a classic indie-game style. 
-
+- **Mood checker**: Simple, yet important. Asking anyone, 'How do you feel?' is important because they are heard and known. As such, we have implemented a simple mood checker that asks for your mood. As turn, their garden is updated with your mood (this specific part has not been implemented).
+- **Let your thoughts fly away**: Sometimes, we need to rant about how we feel. This is why we have a thought bubble, where you can write **anything** about how you feel, and let your thought fly away!
+- **And finally, your garden**: Although not fully implemented, the main feature is having your garden. Click the plants you grew, name them, and be able to interact with them! For now, each plant holds a special quote, saying or fact regarding your mental health. It may be inspirational, wholesome, or important to know for adolescents.
+- **Cutesy, indie-game style**: The overall aesthetic for this is a 'cutesy' vibe for all adolescents to feel comfortable using. Lots of pixel art is used for an 'indie-like' style. 
 ---
 
 ## **Installation**  
@@ -37,4 +38,4 @@ Since this is a static website, there’s no server setup required. You only nee
 
 ## **Contributions**
 
-We, Krisha P, Tharjiha S, Jennifer H are a group of driven, first-year (at the time of publish) students at UTSC pursuing computer science & statistics.  
+We, Krisha P, Tharjiha S, and Jennifer H are a group of driven, first-year (at the time of publication) students at UTSC pursuing computer science & statistics.  
