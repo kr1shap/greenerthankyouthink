@@ -8,8 +8,7 @@ Welcome to **Greener than you think**! This project is a simple static website b
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
 
 ---
 
