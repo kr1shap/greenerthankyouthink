@@ -38,3 +38,5 @@ Since this is a static website, there’s no server setup required. You only nee
 ## **Contributions**
 
 We, Krisha P, Tharjiha S, and Jennifer H are a group of driven, first-year (at the time of publication) students at UTSC pursuing computer science & statistics.  
+Github accounts: @tharjiha @kr1shap
+
