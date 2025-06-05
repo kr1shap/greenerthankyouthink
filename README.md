@@ -34,6 +34,7 @@ This was a project made for ElleHacks 25.
 ## **Installation**  
 
 Since this is a static website, there’s no server setup required. You only need to clone the repository and open the files locally in your browser.
+[**NOTE: This is a prototype product, not complete!!]
 
 ## **Contributions**
 
